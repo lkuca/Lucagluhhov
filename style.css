@@ -10,3 +10,70 @@ header h1{
     letter-spacing: 0.5cm;
     border-bottom: solid 1pt red; /*dotted dashed double*/
 }
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:blue;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-right: crimson;
+    font-variant: small-caps;
+}
+ul{
+    list-style-type:none;
+    margin:0; /*отступ строк */
+    padding:0; /*между элементами*/
+    overflow: hidden;
+    background-color:lightgoldenrodyellow ;
+}
+li a:hover {
+    background-color: aqua;
+    color: bisque;
+    text-decoration: underline;
+
+}
+/*pöördume ul nimega nimekiri*/
+.nimekiri{
+    list-stylr-type:circle;
+    margin:0;
+    padding:0px;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+img#pilt1{
+    width:10%;
+}
+img#pilt2 {
+    width: 20%;
+    border: dotted 2pt red;
+}
+img#pilt3 {
+    width: 30%;
+    border: solid 1pt darkblue;
+    border-radius: 60px;
+}
+section#section1 {
+    width: 30%;
+    border: solid 1pt crimson;
+    border-radius: 50px;
+    margin: 4px;
+    text-decoration: black;
+}
+section#section2 {
+    width: 20%;
+    border: solid 1pt blue;
+    border-radius: 100px;
+    text-decoration: blueviolet;
+    margin: 10px;
+}
+section#section3{
+    width: 50%;
+    border: solid 1pt darkorange;
+    text-decoration: coral;
+    margin: 20px;
+    border-left: 6px solid red;
+}
